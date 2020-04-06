@@ -1,12 +1,11 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial espSerial(3,2);
+SoftwareSerial espSerial(2,3);
 
-#define ssid "EmberSpirit"
-#define PASSWORD "19051905aA."
+#define ssid "YOUR_WiFi_SSID"
+#define PASSWORD "YOUR_WiFi_PASSWORD"
 
 String fmsg;
-String msg;
 String response;
 String cmd;
 
