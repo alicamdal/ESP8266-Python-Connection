@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial espSerial(3,2);
+SoftwareSerial espSerial(2,3);
 
 #define ssid "YOUR_WiFi_SSID"
 #define PASSWORD "YOUR_WiFi_PASSWORD"
