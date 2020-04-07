@@ -6,7 +6,6 @@ SoftwareSerial espSerial(2,3);
 #define PASSWORD "YOUR_WiFi_PASSWORD"
 
 String fmsg;
-String response;
 String cmd;
 
 void setup() 
@@ -151,12 +150,13 @@ void espSetup()
 
 void getResponse()
 {
+  String response;
+  
   while(espSerial.available()){
       char c = espSerial.read();
       response += c;
       }
   Serial.println(response);
-  response = "";
 }
 
 
