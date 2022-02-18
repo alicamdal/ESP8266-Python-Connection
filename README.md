@@ -1,4 +1,4 @@
-# ESP8266---Python-Connection
+# ESP8266-Python Connection
 ESP8266 -  Python Connection in Arduino Based System
 
 This project contains ESP8266 and Python connection via socket library.
